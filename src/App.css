@@ -1,38 +1,81 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  /* background: url(./img/pexels-lukas-952478.jpg) no-repeat center center fixed; */
+  /* background-size: cover; */
+  position: relative;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+}
+
+.background img {
+  filter: brightness(0.4);
+  min-height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.background .happy-chef {
+  filter: none;
+  top: 0;
+  right: -200px;
+  border: 50px solid #ffffffb3;
+  border-radius: 50%;
+  height: 800px;
+  width: auto;
+  position: absolute;
+  transform: rotateZ(-40deg);
+}
+
+.app-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.app-body h1 {
+  width: 60%;
+}
+
+h1 {
+  font-size: 8rem;
+  font-family: "Spartan", sans-serif;
+  text-transform: uppercase;
+  padding-left: 3rem;
+  letter-spacing: 1rem;
+  text-shadow: 2px 2px 12px #0000008c;
+  color: #fffffffa;
+}
+
+.search-form {
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 4rem 0;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar {
+  width: 30%;
+  border: none;
+  padding: 10px;
+  border-radius: 20px 0px 0px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-button {
+  background: lightblue;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  border-radius: 0px 20px 20px 0;
+}
+
+.recipes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin: 0 auto;
 }
