@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kumis-kitchen/precache-manifest.a8e9f2508cc276de15b83c0b3dfd483b.js"
+  "/kumis-kitchen/precache-manifest.c49d09aac26bee330ac9101464ac21c2.js"
 );
 
 self.addEventListener('message', (event) => {

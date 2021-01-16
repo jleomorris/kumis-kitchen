@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/kumis-kitchen/static/css/main.26ec6138.chunk.css",
-    "main.js": "/kumis-kitchen/static/js/main.e15bb6cf.chunk.js",
-    "main.js.map": "/kumis-kitchen/static/js/main.e15bb6cf.chunk.js.map",
+    "main.js": "/kumis-kitchen/static/js/main.3e1720ae.chunk.js",
+    "main.js.map": "/kumis-kitchen/static/js/main.3e1720ae.chunk.js.map",
     "runtime-main.js": "/kumis-kitchen/static/js/runtime-main.a7d0090c.js",
     "runtime-main.js.map": "/kumis-kitchen/static/js/runtime-main.a7d0090c.js.map",
     "static/js/2.c781f276.chunk.js": "/kumis-kitchen/static/js/2.c781f276.chunk.js",
     "static/js/2.c781f276.chunk.js.map": "/kumis-kitchen/static/js/2.c781f276.chunk.js.map",
     "index.html": "/kumis-kitchen/index.html",
-    "precache-manifest.a8e9f2508cc276de15b83c0b3dfd483b.js": "/kumis-kitchen/precache-manifest.a8e9f2508cc276de15b83c0b3dfd483b.js",
+    "precache-manifest.c49d09aac26bee330ac9101464ac21c2.js": "/kumis-kitchen/precache-manifest.c49d09aac26bee330ac9101464ac21c2.js",
     "service-worker.js": "/kumis-kitchen/service-worker.js",
     "static/css/main.26ec6138.chunk.css.map": "/kumis-kitchen/static/css/main.26ec6138.chunk.css.map",
     "static/js/2.c781f276.chunk.js.LICENSE.txt": "/kumis-kitchen/static/js/2.c781f276.chunk.js.LICENSE.txt",
     "static/media/happy_little_chef.png": "/kumis-kitchen/static/media/happy_little_chef.d698f2a9.png",
-    "static/media/pexels-lukas-952478.jpg": "/kumis-kitchen/static/media/pexels-lukas-952478.257e88d9.jpg"
+    "static/media/pexels-lukas-952478.jpg": "/kumis-kitchen/static/media/pexels-lukas-952478.9d119c5f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a7d0090c.js",
     "static/js/2.c781f276.chunk.js",
     "static/css/main.26ec6138.chunk.css",
-    "static/js/main.e15bb6cf.chunk.js"
+    "static/js/main.3e1720ae.chunk.js"
   ]
 }
